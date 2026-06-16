@@ -1,6 +1,6 @@
 # redditapis-examples
 
-> Official code samples for [RedditAPI](https://redditapis.com), the pay-per-call Reddit data API. Reads from $0.002, no subscription, no Reddit developer app.
+> Official code samples for [RedditAPIs](https://redditapis.com), the pay-per-call Reddit data API. Reads from $0.002, no subscription, no Reddit developer app.
 
 [![Docs](https://img.shields.io/badge/docs-redditapis.com-FF4500)](https://docs.redditapis.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-FF4500)](LICENSE)
@@ -116,7 +116,7 @@ reddit = praw.Reddit(
 for submission in reddit.subreddit("programming").hot(limit=25):
     print(submission.title)
 
-# After (RedditAPI, single bearer token)
+# After (RedditAPIs, single bearer token)
 import os, requests
 r = requests.get(
     "https://api.redditapis.com/r/programming/hot",
